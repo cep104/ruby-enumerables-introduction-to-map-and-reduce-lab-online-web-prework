@@ -31,6 +31,8 @@ if source_array.all?
   end
   return false
  end
+ 
+ def reduce_
 
 
 
