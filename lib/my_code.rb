@@ -32,7 +32,16 @@ if source_array.all?
   return false
  end
  
- def reduce_
+ def reduce_to_any_true(source_array)
+   i = 0
+ while i < source_array.length do
+if source_array.any?
+      return true 
+    end
+    i += 1
+  end
+  return false
+ end
 
 
 
